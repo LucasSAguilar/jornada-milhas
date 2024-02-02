@@ -1,0 +1,19 @@
+<!-- Esse ngClass possibilita uma segunda classe para estilos dinâmicos-->
+<div class="card" [ngClass]="variant">
+    <ng-content>
+
+        <!--
+        ng-content funciona semelhante ao childreen do react, ou seja
+        quando eu usar esse componente o ng-content vai representar tudo o que estiver dentro
+        dele 
+
+        <card-component>
+            <h1> Olá, mundo! </h1>
+        </card-component>
+
+        Esse olá, mundo é representado pelo ng-content
+
+    -->
+
+    </ng-content>
+</div>

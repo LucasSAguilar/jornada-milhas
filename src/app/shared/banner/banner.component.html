@@ -1,0 +1,18 @@
+<figure>
+    <img src="{{ src }}" alt="{{ alt }}" />
+
+    <!--
+        EXISTEM DUAS MANEIRAS DE IMPORTAR ESSES ATRIBUTOS DINAMICAMENTE
+
+     1-  <img src="{{ src }}" alt="{{ alt }}" />
+     2-  <img [src]="src" [alt]="alt />
+
+        ESSES VALORES SÃO ATRIBUIDOS NA "banner.component.ts"
+
+export class BannerComponent {
+  @Input() src: string = ''
+  @Input() alt: string = ''
+
+}
+    -->
+</figure>

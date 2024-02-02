@@ -1,0 +1,25 @@
+.card-depoimento {
+    width: 315px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    height: 216px;
+
+    img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .nome-card{
+        font-size: 15px;
+    }
+    .textos {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 5px 20px 5px;
+        box-sizing: border-box;
+        height: 100%;
+        justify-content: space-between;
+    }
+  }
+  

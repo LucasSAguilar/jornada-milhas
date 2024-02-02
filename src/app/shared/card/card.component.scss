@@ -1,0 +1,21 @@
+.card {
+padding: 24px;
+
+/* 
+    Se além de card ela TAMBÉM ser "primary":
+*/
+&.primary {
+    background-color: #FEF7FF;
+    border: 1px solid #CAC4D0;
+    border-radius: 12px;
+}
+
+
+/* 
+    Se além de card ela TAMBÉM ser "secondary":
+*/
+&.seconday {
+    background: #F5F5F5;
+    border-radius: 16px;
+}
+}
